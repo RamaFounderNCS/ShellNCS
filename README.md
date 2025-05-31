@@ -1,6 +1,6 @@
 # ShellNCS - NEWBIE CYBER SECURITY Web Shell
 
-![ShellNCS Logo](./logo.png)  
+![ShellNCS Logo](./Shellncs.png)  
 *Tambahkan logo jika ada*
 
 ---
