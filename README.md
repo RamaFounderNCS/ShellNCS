@@ -1,7 +1,7 @@
 # ShellNCS - NEWBIE CYBER SECURITY Web Shell
 
 ![ShellNCS Logo](./Shellncs.png)  
-*Tambahkan logo jika ada*
+*Tampilan Webshell NEWBIE CYBER SECURITY - FOUNDED BY RamaFounderNCS*
 
 ---
 
