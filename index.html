@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GITHUB BY RAMAFOUNDERNCS</title>
+  <link rel="icon" href="https://i.ibb.co/JWVcjxpH/githubrama.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Share Tech Mono', monospace;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      min-height: 100vh;
+      overflow-x: hidden;
+      padding: 20px;
+    }
+
+    .logo img {
+      width: 140px;
+      max-width: 80vw;
+      height: auto;
+      margin-top: 30px;
+    }
+
+    .blink {
+      color: maroon;
+      font-size: 1.5rem;
+      animation: blink 1s step-start infinite;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    @keyframes blink {
+      50% {
+        opacity: 0;
+      }
+    }
+
+    .main-text {
+      font-size: 1.8rem;
+      color: maroon;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    .sub-text,
+    .sub-text-small {
+      font-size: 1rem;
+      color: #fff;
+      margin-top: 20px;
+      text-transform: uppercase;
+      max-width: 90%;
+    }
+
+    .gretzz-box {
+      margin-top: 15px;
+      padding: 12px 20px;
+      border-radius: 10px;
+      background: linear-gradient(45deg, crimson, darkred);
+      color: white;
+      font-weight: bold;
+      animation: glow 1.2s infinite alternate;
+      max-width: 90%;
+    }
+
+    @keyframes glow {
+      from {
+        box-shadow: 0 0 8px red;
+      }
+      to {
+        box-shadow: 0 0 20px crimson, 0 0 30px darkred;
+      }
+    }
+
+    .music-box {
+      margin-top: 25px;
+    }
+
+    .play-button {
+      background-color: crimson;
+      color: white;
+      border: none;
+      padding: 10px 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
+
+    .play-button:hover {
+      background-color: darkred;
+    }
+
+    @media screen and (max-width: 480px) {
+      .main-text {
+        font-size: 1.4rem;
+      }
+
+      .blink {
+        font-size: 1.2rem;
+      }
+
+      .sub-text,
+      .sub-text-small {
+        font-size: 0.9rem;
+      }
+
+      .play-button {
+        font-size: 0.9rem;
+        padding: 8px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="https://i.ibb.co/JWVcjxpH/githubrama.png" alt="RamaFounderNCS Logo">
+  </div>
+
+  <div class="blink"><strong>GITHUB BY RAMAFOUNDERNCS</strong></div>
+  <div class="main-text"><strong>SHELLBACKDOR BY NCS</strong></div>
+
+  <div class="sub-text">
+    SOURCE CODE BERADA DI REPOSITORI JIKA INGIN COPY PASTE MOHON CANTUMKAN SUMBER CODE NYA BERASAL DARI MANA (RAMAFOUNDERNCS), TOLONG HARGAI KARYA KAMI. 
+  </div>
+  <div class="sub-text-small">
+    SUPPORT:
+  </div>
+
+  <div class="gretzz-box">
+    NEWBIE CYBER SECURITY
+  </div>
+
+  <div class="music-box">
+    <button class="play-button" onclick="document.getElementById('bg-music').play()">Play Music</button>
+    <audio id="bg-music" src="https://github.com/RamaFounderNCS/SoundNCS/raw/refs/heads/main/AnAngelLove.mp3"></audio>
+  </div>
+</body>
+</html>
